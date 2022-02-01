@@ -75,10 +75,49 @@
 # else:
 #     print("try again")
 
-for n in range (1500 2700):
-    if n%5 == 0:
-        print(n,"divisable by 5")
-    if n%7 == 0:
-            print(n,"divisable by 7")
-else:
-    print("none")
+# for n in range (1500 2700):
+#     if n%5 == 0:
+#         print(n,"divisable by 5")
+#     if n%7 == 0:
+#             print(n,"divisable by 7")
+# else:
+#     print("none")
+
+
+
+
+# f = int(input("please input the tempreture in farenheit:"))
+# print(f)
+# if f is None:
+#     c = int(input("please in put the tempreture in celsius: "))
+#     f2 = ((c*9/5)+32)
+#     print(f2, "farenheit")
+# else:
+
+#         c2 = ((f-32)* 5/9)
+#         print(c2,"celsuis")
+
+
+# from random import random
+# count = 0
+# a = random()
+# a = int(a*10)
+# print(a)
+
+# while count < 4:
+#     b = int(input("please input your guess:"))
+#     if b == a:
+#         print("you win")
+#         break
+#     if b > a:
+#         print("too high")
+#         count = count + 1
+#     if b < a:
+#         print("too low")
+#         count = count + 1
+#     if count == 3:
+#         print("you lose")
+#         break
+
+
+
