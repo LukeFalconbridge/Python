@@ -29,9 +29,9 @@ class Tri(Polygon):
         self.sidec = sidec
         self.semip = (self.sidea + self.sideb + self.sidec/2)
     def areasum(self):
-        area = (self.semip * (self.semip - self.sidea) (self.semip - self.sideb) (self.semip - self.sidec)) ** 0.5
+        area = (self.semip *(((self.semip - self.sidea)*(self.semip - self.sideb))*(self.semip - self.sidec))) ** 0.5
         print(area)
-        return("area of triangle is %0.2f",area)
+        return("area of triangle is",area)
 
 
 
